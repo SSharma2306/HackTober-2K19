@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>introduction</title>
+</head>
+<body bgcolor="yellow">
+<h1><center>WELCOMETO MY PAGE!!!!</center></h1>
+<script language="javascript">
+var n,r,s,su,temp,re;
+s=0;
+temp=0;
+su=0;
+n=prompt("enter any number");
+n=parseInt(n);
+while(n>0)
+{
+r=parseInt(n%10);
+s=s+r;
+n=parseInt(n/10);
+}
+temp=s;
+while(temp>0)
+{
+re=parseInt(temp%10);
+su=su+re;
+temp=temp/10;
+temp=parseInt(temp);
+}
+if(su==1)
+{
+document.write("number is magical");
+}
+else
+{
+document.write("number is not magical");
+}
+</script>
+</body>
+</html>
