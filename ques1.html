@@ -1,0 +1,56 @@
+<script language="javascript">
+var t;
+var i;
+var n;
+var m=0;
+var c=0;
+var a= new Array[m];
+
+for(t=0;t<=4;t++)
+{
+
+n=prompt("enter any number");
+n=parseInt(n);
+
+for(i=1;i<=n;i++)
+{
+if(n%i==0)
+{
+for(j=1;j<=i;j++)
+{
+if(i%j==0)
+{
+c++
+}
+else
+{
+break;
+}
+}
+if(c==2)
+{
+a[m]=i;
+m++
+}
+else
+{
+continue;
+}
+if(m==0)
+{
+document.write("-1");
+}
+else
+{
+document.write(a[m-1]);
+}
+else
+{
+continue;
+}
+}
+
+}
+</script>
+
+
